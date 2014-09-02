@@ -1,0 +1,34 @@
+{
+  "name": "gulp-module-unit-tests",
+  "version": "0.0.1",
+  "description": "Gulp Integration for unit tests",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prowl/gulp-module-unit-tests.git"
+  },
+  "keywords": [
+    "Unit",
+    "Tests",
+    "Gulp",
+    "Prowl",
+    "Mocha"
+  ],
+  "author": "Joshwa Fugett <jfugett27@gmail.com> (http://thotjs.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prowl/gulp-module-unit-tests/issues"
+  },
+  "homepage": "https://github.com/prowl/gulp-module-unit-tests",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-module": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module/-/latest.tgz"
+  },
+  "dependencies": {
+    "istanbul-harmony": "^0.3.0",
+    "mocha": "^1.21.4"
+  }
+}
