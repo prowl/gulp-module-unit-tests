@@ -25,7 +25,9 @@
   "homepage": "https://github.com/prowl/gulp-module-unit-tests",
   "devDependencies": {
     "gulp": "^3.8.7",
-    "gulp-module": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module/-/latest.tgz"
+    "gulp-module": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module/-/latest.tgz",
+    "rimraf": "^2.2.8",
+    "should": "^4.0.4"
   },
   "dependencies": {
     "istanbul-harmony": "^0.3.0",

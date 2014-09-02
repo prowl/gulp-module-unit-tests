@@ -7,9 +7,9 @@ var paths = {
   soften: ['**/*.js', '**/*.json', '!./node_modules/**', '!./docs/**'],
   src: ['**/*.js', '!./node_modules/**', '!./docs/**'],
   specs: ['specs/**/*.js'],
-  statements_threshold: 90,
-  functions_threshold: 100,
-  branches_threshold: 100,
+  statements_threshold: 80,
+  functions_threshold: 60,
+  branches_threshold: 0,
   lines_threshold: 80
 };
 
