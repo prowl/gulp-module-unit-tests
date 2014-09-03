@@ -1,0 +1,355 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 28,
+      "physical": 44
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 8,
+        "total": 56,
+        "identifiers": [
+          "var",
+          "=",
+          "()",
+          "{}",
+          ".",
+          "function",
+          ":",
+          "[]"
+        ]
+      },
+      "operands": {
+        "distinct": 52,
+        "total": 85,
+        "identifiers": [
+          "\"use strict\"",
+          "should",
+          "\"should\"",
+          "require",
+          "path",
+          "\"path\"",
+          "rimraf",
+          "\"rimraf\"",
+          "unitTests",
+          "\"../lib/index\"",
+          "gulpMock",
+          "<anonymous>",
+          "task",
+          null,
+          "name",
+          "deps",
+          "func",
+          "configMock",
+          "root",
+          "__dirname",
+          "soften",
+          "\"**/*.js\"",
+          "\"**/*.json\"",
+          "\"!./node_modules/**\"",
+          "\"!./docs/**\"",
+          "src",
+          "specs",
+          "\"specs/**/*.js\"",
+          "statements_threshold",
+          90,
+          "functions_threshold",
+          100,
+          "branches_threshold",
+          "lines_threshold",
+          80,
+          "\"Gulp Module Unit Tests\"",
+          "\"Should return a function\"",
+          "\"function\"",
+          "be",
+          "type",
+          "it",
+          "\"Should create a docs directory\"",
+          "\"Should remove the directory\"",
+          "cb",
+          6000,
+          "this",
+          "timeout",
+          "\"docs\"",
+          "resolve",
+          5000,
+          "setTimeout",
+          "describe"
+        ]
+      },
+      "length": 141,
+      "vocabulary": 60,
+      "difficulty": 6.538461538461538,
+      "volume": 832.8715739808011,
+      "effort": 5445.698752951392,
+      "bugs": 0.2776238579936004,
+      "time": 302.5388196084107
+    },
+    "params": 4,
+    "line": 1,
+    "cyclomaticDensity": 3.571428571428571
+  },
+  "functions": [
+    {
+      "name": "gulpMock.task",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 1,
+          "total": 1,
+          "identifiers": [
+            "="
+          ]
+        },
+        "operands": {
+          "distinct": 4,
+          "total": 5,
+          "identifiers": [
+            "name",
+            "deps",
+            "func",
+            "task"
+          ]
+        },
+        "length": 6,
+        "vocabulary": 5,
+        "difficulty": 0.625,
+        "volume": 13.931568569324174,
+        "effort": 8.707230355827608,
+        "bugs": 0.004643856189774725,
+        "time": 0.48373501976820044
+      },
+      "params": 3,
+      "line": 12,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 3,
+        "physical": 16
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 6,
+          "identifiers": [
+            "()",
+            "function"
+          ]
+        },
+        "operands": {
+          "distinct": 5,
+          "total": 9,
+          "identifiers": [
+            "\"Should return a function\"",
+            "<anonymous>",
+            "it",
+            "\"Should create a docs directory\"",
+            "\"Should remove the directory\""
+          ]
+        },
+        "length": 15,
+        "vocabulary": 7,
+        "difficulty": 1.8,
+        "volume": 42.11032383086406,
+        "effort": 75.79858289555531,
+        "bugs": 0.01403677461028802,
+        "time": 4.2110323830864065
+      },
+      "params": 0,
+      "line": 29,
+      "cyclomaticDensity": 33.33333333333333
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 4,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 5,
+          "total": 5,
+          "identifiers": [
+            "\"function\"",
+            "task",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 9,
+        "vocabulary": 7,
+        "difficulty": 1,
+        "volume": 25.26619429851844,
+        "effort": 25.26619429851844,
+        "bugs": 0.008422064766172813,
+        "time": 1.403677461028802
+      },
+      "params": 0,
+      "line": 30,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 1,
+          "total": 1,
+          "identifiers": [
+            "()"
+          ]
+        },
+        "operands": {
+          "distinct": 1,
+          "total": 1,
+          "identifiers": [
+            "task"
+          ]
+        },
+        "length": 2,
+        "vocabulary": 2,
+        "difficulty": 0.5,
+        "volume": 2,
+        "effort": 1,
+        "bugs": 0.0006666666666666666,
+        "time": 0.05555555555555555
+      },
+      "params": 0,
+      "line": 34,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 6
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 4,
+          "identifiers": [
+            "()",
+            ".",
+            "function"
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 7,
+          "identifiers": [
+            "cb",
+            6000,
+            "this",
+            "timeout",
+            "<anonymous>",
+            5000,
+            "setTimeout"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 10,
+        "difficulty": 1.5,
+        "volume": 36.541209043760986,
+        "effort": 54.81181356564148,
+        "bugs": 0.012180403014586996,
+        "time": 3.0451007536467487
+      },
+      "params": 1,
+      "line": 38,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 3,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "__dirname",
+            "\"docs\"",
+            "path",
+            "resolve",
+            "cb",
+            "rimraf"
+          ]
+        },
+        "length": 9,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 27,
+        "effort": 27,
+        "bugs": 0.009,
+        "time": 1.5
+      },
+      "params": 0,
+      "line": 40,
+      "cyclomaticDensity": 100
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 3,
+      "path": "should",
+      "type": "CommonJS"
+    },
+    {
+      "line": 4,
+      "path": "path",
+      "type": "CommonJS"
+    },
+    {
+      "line": 5,
+      "path": "rimraf",
+      "type": "CommonJS"
+    },
+    {
+      "line": 7,
+      "path": "../lib/index",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 89.22120755921192,
+  "params": 0.6666666666666666,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "test/index.js"
+  }
+}
