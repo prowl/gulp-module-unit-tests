@@ -29,8 +29,5 @@
     "rimraf": "^2.2.8",
     "should": "^4.0.4"
   },
-  "dependencies": {
-    "istanbul-harmony": "^0.3.0",
-    "mocha": "^1.21.4"
-  }
+  "dependencies": {}
 }
